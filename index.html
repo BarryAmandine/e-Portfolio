@@ -1,313 +1,655 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Amandine Barry e-Portfolio</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+	<title>Kong a Personal Portfolio Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
 
 </head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<div class="logo">
+				<a href="index.html"><img src="images/logo-insep.png" alt=""/></a>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content" style="line-height: 0!important;">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>à propos</span></a></li>
+										<li><a class="scroll" href="#defis"><span>défis irp</span></a></li>
+										<li><a class="scroll" href="#parcours"><span>Parcours</span></a></li>
+										<li><a class="scroll" href="#interets"><span>Centre d'interets</span></a></li>
+										<!-- <li><a class="scroll" href="#blog"><span>blog</span></a></li> -->
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!--start-click-drop-down-menu-->
+			        <!--start-dropdown-->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!--//End-click-drop-down-menu-->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img style='border:solid 2px white;' src="images/profile.jpg" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>AMANDINE BARRY</h1>
+				<div class="border"></div>
+				<h2>Master EOPS - INSEP</h2>
+				<!-- <a href="#">DOWNLOAD MY RESUME</a> -->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>Dyin' ain't much of a livin', boy. here. put that in your report!" and "i may have found 
+		a way out of here. you want a guarantee, buy a toaster. here. put that in your report!" and 
+		"i may have found a way out of here. this is the ak-47 assault rifle, the preferred weapon of 
+		your enemy; and it makes a distinctive sound when fired at you, so remember it. this is the ak-47 
+		assault rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at 
+		you, so remember it. don't p!ss down my back and tell me it's raining. this is the ak-47 assault 
+		rifle, the preferred weapon of your enemy; and it makes a distinctive sound when fired at you, 
+		so remember it. don't p!ss down my back and tell me it's raining. this is my gun, clyde! man's 
+		gotta know his limitations. ever notice how sometimes you come across somebody you shouldn't have 
+		f**ked with? well, i'm that guy.</p>
+		<ul>
+			<li><a class="fb" href="#"></a></li>
+			<li><a class="twit" href="#"></a></li>
+			<li><a class="in" href="#"></a></li>
+			<li><a class="drib" href="#"></a></li>
+			<li><a class="goog" href="#"></a></li>
+			<li><a class="pin" href="#"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center" id="defis">
+	<div class="container">
+		<h3>Défis IRP</h3>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-3 gallery-grid gallery1" >
+					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p1.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p3.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p4.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p7.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p7.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p8.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p8.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p9.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p9.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p10.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p10.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p11.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+								<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p11.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-3 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p12.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<br/><br/><br/><br/><br/><br/><br/><br/>
+							<div class="button"><a href="images/p12.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center" id="parcours">
+	<div class="container">
+		<div class="edu-info">
+			<h3>FORMATIONS</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>2019 - 2020</p><span>En cours</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MASTER EOPS</h3>
+						<h4>INSEP</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Master entrainement et optimisation de laperformance sportive</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2019</p><span>Admis</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Licence 3</h3>
+						<h4>UPEC</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Licence 3 management du Sport</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2018</p><span>Admis</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Licence</h3>
+						<h4>Université Paris Descartes</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Licence STAPS Education & Motricité : option Judo</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>EXPÉRIENCES PRO</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-3 w-grid">
+				<div class="work-grid">
+					<h3>2018</h3>
+					<div class="work-grid-info">
+						<h4>CNOSF</h4>
+						<h5>Bénévole</h5>
+						<p>Bénévole sur l’événement sentez vous sport du CNOSF</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 w-grid">
+				<div class="work-grid">
+					<h3>2017</h3>
+					<div class="work-grid-info">
+						<h4>Sucy Judo</h4>
+						<h5>Stage</h5>
+						<p>Stage d’observation au sein de la structure Sucy Judo</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 w-grid">
+				<div class="work-grid">
+					<h3>2015</h3>
+					<div class="work-grid-info">
+						<h4>Éclaireurs et éclaireuses de France</h4>
+						<h5>Bénélvole</h5>
+						<p>Bénévole chez les éclaireurs et éclaireuses de France dans le groupe
+							de Saint Cyprien à Toulouse jusqu’à fin 2016</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 w-grid">
+				<div class="work-grid">
+					<h3>2017</h3>
+					<div class="work-grid-info">
+						<h4>Championnat de France</h4>
+						<h5>Bénévole</h5>
+						<p>Bénévole sur les championnats de France par équipe séniors première division de Judo (Toulouse)</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
 
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Amandine Barry</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">à propos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Expériences</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#stage">Stages et Bénévolats</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#formation">Formations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interets">Interêts</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Amandine
-          <span class="text-primary">Barry</span>
-        </h1>
-        <p class="lead mb-5">Étudiante en Master EOPS (entrainement et optimisation de la performance sportive) à l'INSEP</p>
-        <video width="600" controls>
-          <source src="img/SampleVideo_1280x720_10mb.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-        </video>
-        <!-- <div class="social-icons">
-          <a href="https://www.facebook.com/amandine.barry">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div> -->
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5 title-section">Expériences</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Assistante d'éducation</h3>
-            <div class="subheading mb-3">Lycée François Villion - Paris 14ème</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2018 - 2019</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Animatrice</h3>
-            <ul>
-              <li>
-                <p>Animatrice avec des personnes en situation de handicap Aout en Corse (LPM) ET Animatrice référente (PEP41) en Aout</p>
-              </li>
-              <li>
-                <p>Assistante sanitaire sur un séjour de deux semaine en juillet (loisir Club), 85 enfants</p>
-              </li>
-              <li>
-                <p>Animatrice vacataire en école primaire et élémentaire avec la mairie de Paris + Aide au devoir avec la mairie de Servian (34)</p>
-              </li>
-              <li>
-                <p>Séjour ski avec Loisirs Provence Méditerranée (14-17 ans)</p>
-              </li>
-              <li>
-                <p>Séjour itinérant avec la CCGPF à Berlin et Amsterdam (14-17 ans)</p>
-              </li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2017 - 2018</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Animatrice</h3>
-            <div class="subheading mb-3">Elan Sport</div>
-            <p>Animatrice polyvalente au camping la vallée de Deauville</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2016 - 2017</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">CDII en Animation</h3>
-            <div class="subheading mb-3">Francas (Haute-Garonne)</div>
-            <ul>
-              <li>
-                  <p>Séjour de vacances avec Alp’Azur de 14 jours en Juillet</p>
-              </li>
-              <li>
-                  <p>Séjour de vacances avec Chic Planet de 2 semaines en Aout</p>
-              </li>
-            </ul>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2015 - 2016</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Jeune fille au pair</h3>
-            <div class="subheading mb-3">Toulouse</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2014 - 2015</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
+<!--services-->
+<div class="services text-center" id="interets">
+	<div class="container">
+		<div class="ser-info">
+			<h3>SERVICES</h3>
+		</div>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagea"></div>
+				<h3>Web Design</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imageb"></div>
+				<h3>Graphic Design</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagec"></div>
+				<h3>Content Writer</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imaged"></div>
+				<h3>Development</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		
 
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="stage">
-      <div class="w-100">
-        <h2 class="mb-5 title-section">Stages et Bénévolats</h2>
-        
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Stage d'invention</h3>
-              <div class="subheading mb-3">Mairie de Sucy en Brie</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2019</span>
-            </div>
-          </div>
-          <hr>
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Bénévole</h3>
-              <div class="subheading mb-3">Sentez vous sport - CNOSF</div>
-              <h3 class="mb-0">Stage d’intervention professorat d'Education Physique et Sportive</h3>
-              <div class="subheading mb-3">Collège Pilatre de Rozier - Paris 12ème</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2018</span>
-            </div>
-          </div>
-          <hr>
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Stage d’observation</h3>
-              <div class="subheading mb-3">Structure Sucy Judo</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2017</span>
-            </div>
-          </div>
-          <hr>
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Bénévole</h3>
-              <div class="subheading mb-3">éclaireurs et éclaireuses de France - Groupede Saint Cyprien à Toulouse</div>
-              <ul>
-                <li>
-                  <p>Responsable de l'intendance et des menus</p>
-                </li>
-                <li>
-                  <p>Responsable chez les 8-11 ans & 11-15 ans</p>
-                </li>
-              </ul>
-              <h3 class="mb-0">Bénévole</h3>
-              <div class="subheading mb-3">éclachampionnats de France par équipe séniorspremière division de Judo - Toulouse</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2015</span>
-            </div>
-          </div>
 
 
-      </div>
-    </section>
-  
-    <hr class="m-0">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Photoshop</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>Illustrator</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Photography</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Html 5 / CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>C4D</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>After Effect</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 30 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+<!--process-->
+<div class="process text-center">
+	<div class="container">
+		<h3>PROCESS</h3>
+		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagea"></div>
+					<p>IDEA</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imageb"></div>
+					<p>CONCEPT</p>
+					<img class="pro-imga" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagec"></div>
+					<p>DESIGN</p>
+					<img class="pro-img" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imaged"></div>
+					<p>DEVELOP</p>
+					<img class="pro-imgb" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagee"></div>
+					<p>TEST</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagef"></div>
+					<p>LAUNCH</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//process-->
+<div class="process-back"></div>
+<!--testimonials-->
+<div class="testimonials" id="testimonial">
+	<div class="container">
+		<h3>TESTIMONIAL</h3>
+		<div class="strip text-center"><img src="images/test.png" alt=" "/></div>
+			<!-- responsiveslides -->
+					<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							 // Slideshow 4
+							$("#slider3").responsiveSlides({
+								auto: true,
+								pager: false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+								}
+								});
+								});
+						</script>
+			<!-- responsiveslides -->
+			<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/7.png" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>However unreal it may seem, we are connected, 
+									you and I. We're on the same curve, just on opposite ends.</p>
+									<h4>Sam L. J. - Pulp Fiction</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/eee.png" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>However unreal it may seem, we are connected, 
+									you and I. We're on the same curve, just on opposite ends.</p>
+									<h4>Sam L. J. - Pulp Fiction</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+					</ul>
+			</div>
+			
+	</div>
+</div>
+<!--testimonials-->
 
+<div class="client-back"></div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>Orchard Park, Long Bennington, </li>
+					<li>Newark, Lincolnshire </li>
+					<li>NG23 5DQ, United Kingdom</li>
+					<li>9876543210</li>
+					<li><a href="mailto:info@example.com">Sebastian@mail.com</a></li>
+					<li><a href="#">www.sebasti.an</a></li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Drop Me A Line</h3>
+				<div class="stripb"></div>
+				<form>
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="#">Download My Resume</a></div>
+	</div>
+</div>
+<!--//resume-->
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="formation">
-      <div class="w-100">
-        <h2 class="mb-5 title-section">Formations</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Master EOPS (entrainement et optimisation de la performance sportive)</h3>
-            <div class="subheading mb-3">INSEP</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2019 - 2020</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Licence 3 management du Sport</h3>
-            <div class="subheading mb-3">UPEC</div>
-            <p>Mention AB</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2019</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Licence STAPS Education & Motricité : option Judo</h3>
-            <div class="subheading mb-3">Université Paris Descartes</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2019</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">PSC1</h3>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2016</span>
-          </div>
-        </div>
-        <hr>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Baccalauréat Scientifique</h3>
-            <div class="subheading mb-3">lycée Henri 4 - Béziers</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2014</span>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interets">
-      <div class="w-100">
-        <h2 class="mb-5 title-section">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-      </div>
-    </section>
-
-   
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
 </body>
-
 </html>
