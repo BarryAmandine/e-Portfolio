@@ -1,0 +1,19 @@
+#container-defi2{
+    margin-top: 10%;
+    width:50%;
+    margin-left: 25%;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    padding: 15;
+    font-size: 18pt;
+    color:#3A4E66;
+}
+body{
+    background-image: url("../images/defi2BG.jpg");
+ 
+    font-family: 'Raleway', sans-serif;
+}
+#title-defi2{
+    font-size: 24pt;
+    font-weight: bold;
+}
