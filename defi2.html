@@ -23,7 +23,12 @@
         <script>
             let sign = prompt("Code d'accès : ");
 
-            if (sign.toLowerCase() != "codeinsep") {
+            
+            if(sign){
+                if (sign.toLowerCase() != "codeinsep") {
+                    document.location.href="index.html";
+                }
+            }else{
                 document.location.href="index.html";
             }
 
