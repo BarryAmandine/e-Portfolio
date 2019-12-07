@@ -1,4 +1,4 @@
-#container-defi2, #container-defi4{
+#container-defi2, #container-defi4, #container-defi1{
     margin-top: 10%;
     width:50%;
     margin-left: 25%;
@@ -13,7 +13,7 @@ body{
  
     font-family: 'Raleway', sans-serif;
 }
-#title-defi2, #title-defi4{
+#title-defi2, #title-defi4, #title-defi1{
     color:#CED2D7!important;
     font-size: 24pt;
     font-weight: bold;
