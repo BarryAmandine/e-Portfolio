@@ -133,7 +133,7 @@ color:#ffffff;
 margin:35px 0 15px 0;
 letter-spacing: 15px;
 }
-.banner-right h2{
+.banner-right h2, .banner-right h3{
   font-size: 50px;
   font-weight: 300;
   color: #ffffff;
@@ -1942,7 +1942,7 @@ border:none;
 	  font-size: 30px;
 	  margin: 23px 0 15px 0;
 	  }
-	.banner-right h2 {
+	.banner-right h2, .banner-right h3 {
 	  font-size: 45px;
 	  }
 	.banner-right a {
@@ -2298,10 +2298,10 @@ border:none;
 	.border {
 	  width: 58%;
 	  }
-	.banner-right h2 {
+	.banner-right h2, .banner-right h3 {
 	  font-size: 40px;
 	}
-	.banner-right h2 {
+	.banner-right h2, .banner-right h3 {
 	  margin: 15px 0 35px 0;
 	}
 	.about h3 {
@@ -2647,7 +2647,7 @@ border:none;
 	.banner-right h1 {
 	  font-size: 26px;
 	}
-	.banner-right h2 {
+	.banner-right h2, .banner-right h3 {
 	  font-size: 35px;
 	}
 	.banner-right a {
@@ -2916,10 +2916,10 @@ border:none;
 	  font-size: 20px;
 		letter-spacing: 10px;
 	}
-	.banner-right h2 {
+	.banner-right h2, .banner-right h3{
 	  font-size: 30px;
 	}
-	.banner-right h2 {
+	.banner-right h2, .banner-right h3 {
 	  margin: 10px 0 28px 0;
 	}
 	.banner {
@@ -3277,7 +3277,7 @@ border:none;
   font-size: 16px;
   letter-spacing: 5px;
 }
-.banner-right h2 {
+.banner-right h2, .banner-right h3 {
   font-size: 18px;
 }
 .banner-right a {
