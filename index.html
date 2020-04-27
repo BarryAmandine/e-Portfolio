@@ -7,6 +7,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
+	
+	
 	<title>E-Portfolio Amandine</title>
 	<!--fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -14,6 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--//fonts-->
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/jquery.popVideo.css">
 	<!-- for-mobile-apps -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -23,6 +26,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //for-mobile-apps -->
 	<!-- js -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/jquery.popVideo.js"></script>
 	<!-- js -->
 	<!-- start-smooth-scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
@@ -139,10 +143,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<br/>
 		<h3>Défis IRP</h3>
+
+
+	
+
+		   
+
 		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
-		
 		<div class="gallery-grids">
-			<div class="top-gallery">
+			<div class="top-gallery">		
 				<div class="col-md-3 gallery-grid gallery1" >
 					<a href="#" ><img src="images/p1.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
@@ -196,7 +205,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<a href="#" ><img src="images/p8.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
 								<br/>
-							<div class="button"><a class="swipebox-video" rel="mp4" href="docs/IRP_defi_2.mp4" >VIEW</a></div>
+							<div class="button"><a id="display_videoD8">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-3 gallery-grid gallery1">
@@ -229,12 +238,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div></a>
 				<div class="clearfix"> </div>
 			</div>
+			<div id="videoDefi8" style="position: fixed; top:0; left: 0; width: 100% ;height: 100%; z-index: 2000; background-color: rgba(0,0,0,0.5); padding-top: 100px;" hidden>
+				<video width="50%" height="582" controls>
+					<source src="docs/IRP_defi_2.mp4" type="video/mp4">
+				  Votre navigateur ne supporte pas la balise vidéo.
+				</video>
+			</div>
+			
 				<link rel="stylesheet" href="css/swipebox.css">
 				<script src="js/jquery.swipebox.min.js"></script> 
 					<script type="text/javascript">
 						jQuery(function($) {
 							$(".swipebox").swipebox();
 							$(".swipeboxDefi").swipebox();
+							$(".swipebox-video").swipebox();
+							$("#display_videoD8").on('click', function(){
+								$("#videoDefi8").show();
+							})
+							$("#videoDefi8").on('click', function(){
+								$(this).hide();
+							})
 						});
 					</script>
 		</div>

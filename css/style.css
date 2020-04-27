@@ -3510,3 +3510,7 @@ a.callbacks_nav.callbacks1_nav.prev {
     transition: all 0.2s ease-in-out;
 }
 /*-- responsive media queries --*/
+
+.row{
+	z-index: 1000;
+}
